@@ -24,7 +24,7 @@ function draw(){
 	let y1=r1*Math.cos(a1);
 	let x2=x1+r2*Math.sin(a2);
 	let y2=y1+r2*Math.cos(a2);
-	path.push([x2,y2])
+	path.push([x2,y2]);
 	ctx.strokeStyle="#a8a8e3";
 	ctx.beginPath();
 	path.forEach((e,i)=>{
